@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+# Specify your username
+username = 'your_username_here'
+# Insert your OAuth Token 
+token = 'oauth:abcdefghijklmnopqrstuvwxyz1234'
+# Specify the maximum Damerau-Levenshtein Distance to the phrases
+# you want to ban the author for
+dl_phrases = 10
+# Specify the maximum Damerau-Levenshtein Distance to the users
+# you want to ban
+dl_users = 3
